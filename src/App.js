@@ -41,7 +41,7 @@ function App() {
                 alignItems: "center",
               }}
             >
-              <input type="text" />
+              <input type="text" placeholder="  Search..." />
               <BiSearch />
             </Box>
           </Box>
@@ -87,7 +87,7 @@ function App() {
               display: "flex",
               justifyContent: "space-between",
               alignItems: "center",
-              marginTop: 5,
+              marginTop: 9,
             }}
           >
             <img src={Logo} alt="" />

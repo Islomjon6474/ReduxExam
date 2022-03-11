@@ -53,13 +53,13 @@ function Categories(props) {
           <Box
             sx={{
               paddingY: 5,
-              marginY: 5,
+              marginY: 10,
             }}
           >
             <Typography
               sx={{
                 fontWeight: "bold",
-                fontSize: "28px",
+                fontSize: "48px",
                 fontFamily: "Roziha One",
               }}
               variant="h1"
