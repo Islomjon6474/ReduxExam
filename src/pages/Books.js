@@ -141,7 +141,7 @@ function Books(props) {
                           fontWeight: "bold",
                           fontSize: "16px",
                           fontFamily: "Roziha One",
-                          textTransform: "lowercase",
+                          textTransform: "lowercase ",
                         }}
                         variant="h6"
                       >
@@ -236,13 +236,15 @@ function Books(props) {
                           aria-describedby="modal-modal-description"
                         >
                           <Box sx={style}>
-                            <Typography
-                              id="modal-modal-title"
-                              variant="h6"
-                              component="h2"
-                            >
-                              Author: {item.author}
-                            </Typography>
+                            {item.author && (
+                              <Typography
+                                id="modal-modal-title"
+                                variant="h6"
+                                component="h2"
+                              >
+                                Author: {item.author}
+                              </Typography>
+                            )}
                             <Typography
                               id="modal-modal-description"
                               sx={{ mt: 2 }}

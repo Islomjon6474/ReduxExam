@@ -31,19 +31,6 @@ function App() {
             }}
           >
             <img src={Logo} alt="" />
-            <Box
-              sx={{
-                border: "1px solid #C4C4C4",
-                borderRadius: 3,
-                display: "flex",
-                justifyContent: "center",
-                padding: 1,
-                alignItems: "center",
-              }}
-            >
-              <input type="text" placeholder="  Search..." />
-              <BiSearch />
-            </Box>
           </Box>
         </Container>
       </section>

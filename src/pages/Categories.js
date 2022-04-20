@@ -85,7 +85,7 @@ function Categories(props) {
                     minHeight: "173px",
                   }}
                 >
-                  <img src={Logo} alt="" />
+                  <img src={Logo} draggable={false} alt="" />
                   <Typography
                     sx={{
                       fontWeight: "bold",
